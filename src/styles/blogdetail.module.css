@@ -1,0 +1,84 @@
+.blockquoteStyle {
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    margin: 16px -30px;
+}
+
+.blockquoteStyle em {
+    font-size: .9em;
+    color: #eee;
+}
+
+.blockquoteStyle p {
+    padding: 0 20px;
+}
+
+.blogDetailContainer {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.image {
+    border-left: 15px solid #ddd;
+    border-top: 15px solid #ddd;
+    border-right: 15px solid #ddd;
+    display: block;
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    margin: 5px auto 0 auto;
+}
+
+.blogContentContainer {
+    background-color: white;
+    padding: 40px 30px;
+    position: relative;
+    box-shadow: 0px 5px 7px 0px rgb(0 0 0 / 19%);
+}
+
+.genreContainer {
+    padding: 10px 15px;
+    box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 19%);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: max-content;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .8em;
+    position: absolute;
+    top: -15px;
+}
+
+.blogDetailHeader {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.8em;
+}
+
+.infoBlogContainer {
+    display: flex;
+    margin: 20px 0;
+}
+
+.iconContainer {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.iconContainer svg {
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .blogDetailContainer {
+        width: 80%;
+    }
+}

@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px -7px 10px 10px rgb(0 0 0 / 26%);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    transition: height .3s;
+}
+
+.headerContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.bigHeader {
+    height: 120px;
+}
+
+.smallHeader {
+    height: 60px;
+}
+
+.logoContainer {
+    position: relative;
+    top: -5px;
+}
+
+.linkLogo {
+    text-decoration: none;
+    color: rgb(68, 14, 82);
+}
+
+.linkLogo:hover {
+    color: rgb(151, 39, 179);
+}
+
+.headerLogo {
+    margin: 0;
+}
+
+.iconLogo {
+    font-size: 2em;
+}
+
+.textLogo {
+    font-size: 1.4em;
+}
