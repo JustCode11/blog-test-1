@@ -1,5 +1,4 @@
 import React from 'react'
-import templateImg from "../../assets/images/dreaming.jpg";
 import { GrClock } from "react-icons/gr";
 import { FaUser, FaComment } from "react-icons/fa";
 import { Link } from "react-router-dom";

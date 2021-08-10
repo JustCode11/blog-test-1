@@ -17,8 +17,7 @@ function BlogDetails() {
 
     useEffect(() => {
         if (!loading) {
-            const content = `http://localhost:8080/${blog.file}.md`
-            //const content = require(`../markdown/${blog.file}.md`);
+            const content = `http://localhost:8080/${blog.file}.md`;
             console.log('content: ', content);
             fetch(content)
                 .then((res) => {
