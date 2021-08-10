@@ -6,6 +6,7 @@
 .pnp.js
 /src/MarkDownTest.js
 /src/styles/testMarkDown.module.css
+/assets/documentary
 
 # testing
 /coverage

@@ -38,3 +38,8 @@ I experienced a problem with my markdown files and the images inside the files. 
 - Every user gets a role and an add a blog entry and comment on different blog entries.
 - Create a Form that transform the content into a markdown file
 - Edit and delete blog entries and comments
+
+
+## Preview
+
+![blog](./assets/documentary/blog.gif)
