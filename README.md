@@ -29,7 +29,7 @@ A React application to practice styling a simple blog. I used JSON-Server for sa
 
 ## Problem with Markdown
 
-I experienced a problem with my markdown files and the images inside the files. The idea is when I wanna see the blog content wich is a markdown file, i fetch it inside useEffect with the file attribute from the db.json. The problem is that it won't load the markdown file, if i import the markdown file then he use it. But than he won't load the images, only when I also import them. Therefore I created a component Images at ./src/config/Images.js where I only import all the files I need even when I never use them. I need to figure out how to load the files and images dynamically.
+I experienced a problem with my markdown files and the images inside the files. The idea is when I wanna see the blog content which is a markdown file, i fetch it inside useEffect with the file attribute from the db.json. The problem is that it won't load the markdown file inside the component, but if I import the markdown file then he will use it. The same thing also happens with the images inside the markdown file, only when I also import them they will show up. Therefore I created a component named *Images* at **./src/config/Images.js** where I only import all the files I need even if I never use them. I need to figure out how to load the files and images dynamically.
 
 
 ## Future plans
